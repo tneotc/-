@@ -1,0 +1,38 @@
+﻿*
+{
+    margin:0px;
+    padding:0px;
+}
+#realbody 
+{
+    color: white;
+    position: absolute;
+    z-index: 2;
+    width: 50%;
+    height: 400px;
+    top:100px;
+    margin-left: 25%;
+	border:double 2px #999999;
+    background-color:rgba(255, 0, 0, 0.5);
+    border:none;
+}
+#realbody h1
+{
+    margin-left:20%;
+}
+#realbody>div
+{
+    position:absolute;
+    height:80px;
+    background-color:rgba(255, 255, 255, 0.5);
+    top:59px;
+    left:118px;
+    -webkit-border-radius: 15px;
+    border-radius:15px;
+    padding-top:15px;
+    padding-left:3px;
+}
+#realbody>div>input
+{
+
+}
